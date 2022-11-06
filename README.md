@@ -3,7 +3,7 @@ Spring is one of the most popular frameworks in Java and has many projects assoc
 Frameworks tackle common application problems, they provide patterns and structure for Java applications.
 They are also used to develop business services.
 
-There are several "Types of Objects" in Spring: Objects that hold data (Entity) and instances of classes with business logic methods (Services).
+There are several "Types of Objects" in Spring: Objects that hold data (Entity) and instances of classes with business logic methods (Service).
 
 The way we share object instances is through **Dependency Injection**.
 
@@ -26,7 +26,7 @@ Link to: [What is the Spring framework really all about? (YouTube/JavaBrains)](h
 
 ## 1. Configuration
 
-"Bean" is a key concept of the Spring Framework. The objects that form the backbone of your (Spring) application that are managed by the Spring IoC container are called beans.
+"Bean" is a key concept of the Spring Framework. They are the objects that form the backbone of your (Spring) application and are managed by the Spring IoC container.
 
 Therefore, a bean is an object that is instantiated, assembled, and otherwise managed by a Spring IoC container.
 
@@ -48,12 +48,12 @@ Model = A model contains the data of the application. The data can be encompasse
 
 Controller = A controller contains the business logic of an application. Here, the @Controller annotation is used to mark the class as the controller.
 
-View = A view represents the provided information in a particular format, Generally, JSP+JSTL* is used to create a view page.
-*Although, Spring also supports other view technologies such as Apache Velocity, Thymeleaf and FreeMarker.
+View = A view represents the provided information in a particular format, Generally, JSP+JSTL is used to create a view page.
+Although, Spring also supports other view technologies such as Apache Velocity, Thymeleaf and FreeMarker.
 
-Front Controller = In Spring Web MVC, the DispatcherServlet class works as the front controller. It is responsible to manage the flow of the Spring MVC application.
+Front Controller = In Spring Web MVC, the DispatcherServlet class works as the front controller. It is responsible for managing the flow of the Spring MVC application.
 
-Advantages of Spring MVC: Separates the roles, light-weight servlet container, powerful configuration, rapid development, easy to test, Flexible mapping.
+Advantages of Spring MVC: separates the roles, light-weight servlet container, powerful configuration, rapid development, easy to test, flexible mapping.
 
 Link to: [MVC Explained in 4 Minutes (YouTube/WebDevSimplified)](https://www.youtube.com/watch?v=DUg2SWWK18I)
 <br>
@@ -72,7 +72,7 @@ Link to: [Frontend web development - a complete overview (2021) (YouTube/SuperSi
 Inversion of Control is a principle in software engineering which transfers the control of objects or portions of a program
 to a container or framework. We most often use it in the context of object-oriented programming.
 
-Dependency injection is a pattern we can use to implement IoC, where the control that is being inverted is setting an
+Dependency Injection is a pattern we can use to implement IoC, where the control that is being inverted is setting an
 object's dependencies.
 
 In the Spring framework, the interface ApplicationContext represents the IoC container. The Spring container is
@@ -81,9 +81,9 @@ responsible for instantiating, configuring and assembling objects known as beans
 In order to assemble beans, the container uses configuration metadata, which can be in the form of XML configuration or
 annotations.
 
-Dependency injection is basically providing the objects that an object needs (its dependencies) instead of having it construct them itself. It's a very useful technique for testing, since it allows dependencies to be mocked or stubbed out.
+Dependency Injection is basically providing the objects that an object needs (its dependencies) instead of having it construct them itself. It's a very useful technique for testing, since it allows dependencies to be mocked or stubbed out.
 
-Dependency Injection in Spring can be done through constructors (recommended), setters or fields
+Dependency Injection in Spring can be done through constructors (recommended), setters or fields.
 
 Link to: [Learn Dependency Injection and Write Better Code (YouTube/AmigosCode)](https://www.youtube.com/watch?v=eQ90v7HQT-Q)
 <br>
@@ -122,7 +122,7 @@ Link to: [Spring Annotations (DigitalOcean)](https://www.digitalocean.com/commun
 
 ### 5. Scheduling
 
-Scheduler is to schedule a thread or task to execute at a certain period of time or periodically at a fixed interval.
+Scheduling is a process of executing the tasks for the specific time period. Spring Boot provides a good support to write a scheduler on the Spring applications.
 The annotations associated with this operation are:
 - @EnableScheduling
 - @Scheduled
