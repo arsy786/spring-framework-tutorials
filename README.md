@@ -1,13 +1,13 @@
 # spring-framework-tutorials
-Spring is one of the most popular frameworks in Java and has many projects associated with it (Cloud, Security, Boot etc.).
-Frameworks tackle common application problems, they provide patterns and structure for Java applications.
+Spring is one of the most popular frameworks in Java and has many projects associated with it such as: Spring Cloud, Spring Security, Spring Boot and more.
+Spring Framework tackle common application problems, provides patterns and a structure for Java applications.
 They are also used to develop business services.
 
 There are several "Types of Objects" in Spring: Objects that hold data (Entity) and instances of classes with business logic methods (Service).
 
 The way we share object instances is through **Dependency Injection**.
 
-The Spring framework specifically provides us with: Application context & dependency injection, data access (simplify connecting to and working with databases), Spring MVC (web apps, rest APIs).
+The Spring framework specifically provides us with: Application Context & Dependency Injection, Data Access (simplify connecting to and working with databases), Spring MVC (web apps, rest APIs).
 
 Link to: [What is the Spring framework really all about? (YouTube/JavaBrains)](https://www.youtube.com/watch?v=gq4S-ovWVlM)
 <br>
@@ -53,7 +53,7 @@ Although, Spring also supports other view technologies such as Apache Velocity, 
 
 Front Controller = In Spring Web MVC, the DispatcherServlet class works as the front controller. It is responsible for managing the flow of the Spring MVC application.
 
-Advantages of Spring MVC: separates the roles, light-weight servlet container, powerful configuration, rapid development, easy to test, flexible mapping.
+Advantages of Spring MVC: separates the roles, light-weight servlet container, powerful configuration, rapid development, easy to test and flexible mapping.
 
 Link to: [MVC Explained in 4 Minutes (YouTube/WebDevSimplified)](https://www.youtube.com/watch?v=DUg2SWWK18I)
 <br>
