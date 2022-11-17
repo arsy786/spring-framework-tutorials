@@ -6,7 +6,7 @@ Spring is one of the most popular frameworks in Java and has many projects assoc
 The Spring framework tackles common application problems, provides patterns and a structure for Java applications, and 
 is also used to develop business services.
 
-There are several "Types of Objects" in Spring: Objects that hold data and instances of classes with business logic methods.
+There are several "Types of Objects" in Spring: Objects that hold data, and instances of classes with business logic methods.
 
 The way we share object instances is through **Dependency Injection**.
 
